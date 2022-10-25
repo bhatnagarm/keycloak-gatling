@@ -24,4 +24,4 @@ It should mainly serve a starting ground where you can build on your actual (mor
 
 ### Run the Simulation
 
-`mvn gatling:test -DkeycloakUrl=http://localhost:10080/auth -DkeycloakRealm=gatling -Dduration=30 -DconcurrentUsers=5`
+`mvn gatling:test -DkeycloakUrl=http://localhost:10080/auth -DkeycloakRealm=velocity -Dduration=30 -DconcurrentUsers=5`

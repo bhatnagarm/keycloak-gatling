@@ -9,7 +9,7 @@ import io.gatling.http.Predef._
 class StandardFlowSimulation extends Simulation {
   val concurrentUserCount = default("concurrentUsers", 5)
   val simulationDuration = default("duration", 30) // seconds
-  val keycloakUrl = default("keycloakUrl", "https://accounts-test.velocityfrequentflyer.com/auth")
+  val keycloakUrl = default("keycloakUrl", "http://localhost:10080/auth")
   val realm = default("keycloakRealm", "velocity")
 
   val keycloakUserCount = default("keycloakUsers", 5)
